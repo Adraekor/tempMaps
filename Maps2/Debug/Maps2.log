@@ -1,0 +1,20 @@
+﻿  Source.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\algorithm(174): error C2198: '_Pr' : pas assez d'arguments pour un appel
+          with
+          [
+              _Pr=bool (__cdecl *)(const Maps::cNode<int> &,const Maps::cNode<int> &)
+          ]
+  c:\users\tazen2u\source\repos\maps2\maps2\source.cpp(64): note: voir la référence à l'instanciation de la fonction modèle '_InIt std::find_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(const Maps::cNode<int> &,const Maps::cNode<int> &)>(_InIt,const _InIt,_Pr)' en cours de compilation
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Maps::cNode<int>>>>,
+              _Ty=Maps::cNode<int>,
+              _Pr=bool (__cdecl *)(const Maps::cNode<int> &,const Maps::cNode<int> &)
+          ]
+  c:\users\tazen2u\source\repos\maps2\maps2\source.cpp(63): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  c:\users\tazen2u\source\repos\maps2\maps2\source.cpp(105): note: voir la référence à l'instanciation de la fonction modèle 'Maps::cNode<int> Maps::cList<int>::Find(T)' en cours de compilation
+          with
+          [
+              T=int
+          ]
+  c:\users\tazen2u\source\repos\maps2\maps2\source.cpp(84): note: voir la référence à l'instanciation de classe modèle 'Maps::cList<int>' en cours de compilation
